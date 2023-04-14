@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/hero.css" />
+    <link rel="stylesheet" href="/styles/about.css" />
+    <link rel="stylesheet" href="/styles/side-lines.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,6 +26,7 @@
     />
     <script defer src="logic/theme.js"></script>
     <script defer src="logic/heroText.js"></script>
+    <script defer src="logic/nav.js"></script>
     <title>Amir Adel | Personal Website</title>
   </head>
   <body class="">
@@ -30,7 +35,22 @@
         <a href="#hero" class="header_logo">
           <h1>Amir Adel</h1>
         </a>
-        <nav>
+        <nav class="nav">
+          <svg
+            width="46px"
+            height="46px"
+            viewBox="0 0 24 24"
+            role="img"
+            class="nav_menu_icon"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-labelledby="hamburgerIconTitle"
+            strokeWidth="{2}"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          >
+            <path d="M6 7L18 7M6 12L18 12M6 17L18 17" />
+          </svg>
           <ul class="nav_list">
             <li><a href="#about">About</a></li>
             <li><a href="#cats">Cats</a></li>
@@ -40,9 +60,36 @@
             <li><button class="theme_switcher">Dark Theme 🌙</button></li>
           </ul>
         </nav>
+        <!-- <nav class="nav_mobile">
+          <svg
+            width="46px"
+            height="46px"
+            viewBox="0 0 24 24"
+            role="img"
+            class="nav_menu_icon"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-labelledby="hamburgerIconTitle"
+            strokeWidth="{2}"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          >
+            <path d="M6 7L18 7M6 12L18 12M6 17L18 17" />
+          </svg>
+          <div class="nav_list_mobile_container">
+            <ul class="nav_list_mobile">
+              <li><a href="#about">About</a></li>
+              <li><a href="#cats">Cats</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><button class="theme_switcher">Dark Theme 🌙</button></li>
+            </ul>
+          </div>
+        </nav> -->
       </div>
     </header>
-    <main class="main">
+    <main>
       <section class="hero" id="hero">
         <div class="hero_content">
           <div class="hero_text">
