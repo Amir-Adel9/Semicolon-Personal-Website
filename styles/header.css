@@ -45,7 +45,7 @@
 .nav_list button {
   color: var(--color-primary);
   background: var(--color-text);
-  margin-left: 20px;
+  margin-left: 10px;
   padding: 8px;
   border: 1px solid var(--color-text);
   border-radius: 2px;
