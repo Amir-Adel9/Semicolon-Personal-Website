@@ -95,6 +95,7 @@
   align-items: center;
   gap: 0.25rem;
   margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .project_stack span {
