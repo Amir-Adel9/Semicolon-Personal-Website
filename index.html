@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/style.css" />
+
     <link rel="stylesheet" href="/styles/global.css" />
     <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/hero.css" />
     <link rel="stylesheet" href="/styles/about.css" />
     <link rel="stylesheet" href="/styles/cats.css" />
-    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/projects.css" />
     <link rel="stylesheet" href="/styles/side-lines.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,7 +40,7 @@
     <script defer src="logic/catSlider.js"></script>
     <title>Amir Adel | Personal Website</title>
   </head>
-  <body class="">
+  <body>
     <header class="header">
       <div class="header_content">
         <a href="#hero" class="header_logo">
@@ -280,7 +281,87 @@
       </section>
       <section class="projects" id="projects">
         <div class="projects_content">
-          <div>Hi 👋</div>
+          <div>
+            <h4>Projects</h4>
+            <h1>My Projects.</h1>
+            <p class="projects_text">
+              Here are some of my highlighted projects that I have been working
+              on recetly.
+            </p>
+          </div>
+          <div class="projects_wrapper">
+            <div class="project">
+              <div class="project_links">
+                <a href="https://catcorner.vercel.app" target="_blank"
+                  >Live Website</a
+                >
+                <a
+                  href="https://github.com/Amir-Adel9/cat-corner"
+                  target="_blank"
+                  >Source Code</a
+                >
+              </div>
+              <img src="assets/images/projects/catcorner.png" alt="" />
+              <div>Cat Corner 🐱</div>
+              <p>
+                A social media like website for posting pictures of cats,
+                includes features as posting, liking, commenting and viewing
+                user profiles, and any pictures that do not include a cat will
+                be rejected (still under development)
+              </p>
+              <div class="project_stack">
+                <span>TypeScript</span> <span>React</span> <span>React</span>
+                <span>Next.js</span> <span>Tailwind CSS</span>
+                <span>tRPC</span> <span>Prisma</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project_links">
+                <a href="https://typemaster-plus.vercel.app" target="_blank"
+                  >Live Website</a
+                >
+                <a
+                  href="https://github.com/Amir-Adel9/typemaster"
+                  target="_blank"
+                  >Source Code</a
+                >
+              </div>
+              <img src="assets/images/projects/typemaster.png" alt="" />
+              <div>Type Master ⌨️</div>
+              <p>
+                A full stack typing game with features like user registration,
+                difficulties, themes, tracking progress and leveling system,
+                leader boards and in-game stats such as accuracy
+              </p>
+              <div class="project_stack">
+                <span>TypeScript</span> <span>React</span> <span>React</span>
+                <span>Next.js</span> <span>Tailwind CSS</span>
+                <span>tRPC</span> <span>Prisma</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project_links">
+                <a
+                  href="https://github.com/Amir-Adel9/lol-esports"
+                  target="_blank"
+                  >Source Code</a
+                >
+              </div>
+              <img src="assets/images/projects/lolesports.jpg" alt="" />
+              <div>LoL Esports 🕹️</div>
+              <p>
+                A League of Legends Esports API that queries data about the
+                match schedule, results and standings of the current season
+                (still under development, an integrated discord bot and website
+                are coming soon)
+              </p>
+              <div class="project_stack">
+                <span>TypeScript</span> <span>React</span> <span>React</span>
+                <span>Next.js</span> <span>Tailwind CSS</span>
+                <span>tRPC</span> <span>Prisma</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <div class="side_lines">
