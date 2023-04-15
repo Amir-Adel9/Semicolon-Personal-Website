@@ -62,3 +62,12 @@
 .hero_nav button:hover {
   transform: translateY(-4px);
 }
+
+@media screen and (max-width: 768px) {
+  .hero_content {
+    padding: 0 5%;
+  }
+  .greeting_text {
+    font-size: 4rem;
+  }
+}
