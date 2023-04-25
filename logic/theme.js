@@ -1,3 +1,5 @@
+// Contains the logic for switching between light and dark theme
+
 const themeSwitcher = document.querySelector('.theme_switcher');
 const selectedTheme = localStorage.getItem('theme');
 

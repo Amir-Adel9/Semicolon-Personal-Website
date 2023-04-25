@@ -1,3 +1,5 @@
+/* CSS File for the Hero Section's Styles */
+
 .hero {
   width: 100%;
   height: 100vh;
@@ -36,6 +38,8 @@
   animation: caret_blink 1s infinite;
 }
 
+/* blinking animation */
+
 @keyframes caret_blink {
   50% {
     opacity: 0;
@@ -63,6 +67,8 @@
 .hero_nav button:hover {
   transform: translateY(-4px);
 }
+
+/* Media Queries for taking care of different screen sizes */
 
 @media screen and (max-width: 768px) {
   .hero_content {

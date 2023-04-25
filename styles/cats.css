@@ -1,3 +1,5 @@
+/* CSS File for the Cats Section's Styles */
+
 .cats {
   width: 100%;
   min-height: 100vh;
@@ -106,6 +108,8 @@
 .image-container:hover .cat-name {
   opacity: 1;
 }
+
+/* Media Queries for taking care of different screen sizes */
 
 @media screen and (max-width: 768px) {
   .slider img {

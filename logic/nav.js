@@ -1,3 +1,5 @@
+// Contains the logic for the navigation menu on small screens
+
 const navIcon = document.querySelector('.nav_menu_icon');
 const navMenu = document.querySelector('.nav_list');
 

@@ -1,3 +1,5 @@
+// Contains the logic for the changing words in the hero text
+
 const wordToBeChanged = document.querySelector('.title_text_span');
 const wordsArray = ['self-taught', 'passionate', 'committed'];
 

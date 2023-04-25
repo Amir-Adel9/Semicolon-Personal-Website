@@ -1,3 +1,5 @@
+// Contains the logic for the Cat Slider
+
 const slider = document.querySelector('.slider');
 const arrowIcons = document.querySelectorAll('.slider-wrapper i');
 const firstImage = document.querySelectorAll('.cat-image')[0];

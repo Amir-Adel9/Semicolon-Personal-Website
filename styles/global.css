@@ -1,3 +1,5 @@
+/* CSS File for Global styles applied on all the website */
+
 @layer base {
   :root {
     --color-primary: #f1f1f1;
