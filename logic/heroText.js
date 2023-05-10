@@ -18,6 +18,7 @@ function changeWord() {
       // If the end of the array is reached, start over
       i = 0;
     }
+    // i %= wordsArray.length; (Hazem's solution)
   }, 1000); // Execute the function every 1000 milliseconds (1 second)
 }
 

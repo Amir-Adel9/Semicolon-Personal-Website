@@ -39,6 +39,7 @@
   cursor: pointer;
   white-space: nowrap;
   overflow: hidden;
+  border-radius: 12px;
 }
 
 .slider.dragging {
@@ -82,6 +83,10 @@
   height: 460px;
   object-fit: fill;
   width: calc(100% / 3);
+}
+
+.slider .image-container:first-child {
+  margin-left: 0;
 }
 
 .image-container {

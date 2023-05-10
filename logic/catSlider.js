@@ -10,7 +10,6 @@ const firstImage = document.querySelectorAll('.cat-image')[0]; // Reference to t
 let isDragging = false, // Boolean flag to indicate whether the user is currently dragging the slider
   prevPageX, // Stores the previous x-coordinate of the user's cursor when dragging begins
   prevScrollLeft; // Stores the previous horizontal scroll position of the slider when dragging begins
-
 // Calculate the width of the first image plus some extra padding to use later
 let firstImageWidth = firstImage.offsetWidth + 14;
 
@@ -22,7 +21,7 @@ arrowIcons.forEach((icon) => {
       slider.scrollLeft -= firstImageWidth; // Move the slider left by the width of one image
     } else {
       // If the right arrow is clicked
-      slider.scrollLeft += firstImageWidth; // Move the slider right by the width of one image
+      slider.scrollLeft += firstImageWidth + 14; // Move the slider right by the width of one image
     }
   });
 });
