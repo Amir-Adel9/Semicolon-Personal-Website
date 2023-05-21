@@ -13,7 +13,6 @@ themeSwitcher.innerHTML = document.body.classList.contains('theme_dark') // Upda
 
 // 3. This function toggles the current theme
 function toggleTheme() {
-  // Log a message to the console to indicate that the function has been called
   document.body.classList.toggle('theme_dark'); // Toggle the 'theme_dark' class on the body element
   localStorage.setItem(
     // Save the new theme to local storage

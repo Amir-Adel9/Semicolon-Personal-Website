@@ -29,9 +29,9 @@ arrowIcons.forEach((icon) => {
 // This section defines functions for the various stages of slider dragging
 
 // This function is called when the user begins dragging the slider
-const startDragging = (e) => {
+const startDragging = (event) => {
   isDragging = true; // Set the flag to indicate that the user is now dragging the slider
-  prevPageX = e.pageX; // Store the current x-coordinate of the user's cursor
+  prevPageX = event.pageX; // Store the current x-coordinate of the user's cursor
   prevScrollLeft = slider.scrollLeft; // Store the current horizontal scroll position of the slider
 };
 
